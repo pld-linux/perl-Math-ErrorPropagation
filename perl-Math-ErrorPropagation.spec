@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Math
 %define		pnam	ErrorPropagation
-Summary:	Math::ErrorPropagation - Computes the error of a function of statistical data
+Summary:	Math::ErrorPropagation - computes the error of a function of statistical data
 Summary(pl):	Math::ErrorPropagation - obliczanie b³êdu funkcji danych statystycznych
 Name:		perl-Math-ErrorPropagation
 Version:	0.01
