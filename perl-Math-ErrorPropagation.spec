@@ -10,7 +10,7 @@ Summary(pl):	Math::ErrorPropagation - obliczanie b³êdu funkcji danych statystycz
 Name:		perl-Math-ErrorPropagation
 Version:	0.01
 Release:	2
-License:	GNU/Artistic
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	089bc0978360afc1e9ba94767975cb8f
