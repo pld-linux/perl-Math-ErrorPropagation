@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	ErrorPropagation
 Summary:	Math::ErrorPropagation - computes the error of a function of statistical data
-Summary(pl):	Math::ErrorPropagation - obliczanie b³êdu funkcji danych statystycznych
+Summary(pl.UTF-8):   Math::ErrorPropagation - obliczanie bÅ‚Ä™du funkcji danych statystycznych
 Name:		perl-Math-ErrorPropagation
 Version:	0.01
 Release:	2
@@ -29,9 +29,9 @@ This package allows the propagation of errors on the variables through
 various simple mathematical operations to automatically compute the
 error of the function.
 
-%description -l pl
-Ten pakiet pozwala na automatycznie obliczanie b³êdu funkcji
-powsta³ego z propagacji b³êdów na zmiennych poprzez ró¿ne proste
+%description -l pl.UTF-8
+Ten pakiet pozwala na automatycznie obliczanie bÅ‚Ä™du funkcji
+powstaÅ‚ego z propagacji bÅ‚Ä™dÃ³w na zmiennych poprzez rÃ³Å¼ne proste
 operacje matematyczne.
 
 %prep
