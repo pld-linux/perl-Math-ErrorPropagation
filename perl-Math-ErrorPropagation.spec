@@ -9,7 +9,7 @@ Summary:	Math::ErrorPropagation - computes the error of a function of statistica
 Summary(pl.UTF-8):	Math::ErrorPropagation - obliczanie błędu funkcji danych statystycznych
 Name:		perl-Math-ErrorPropagation
 Version:	0.01
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
