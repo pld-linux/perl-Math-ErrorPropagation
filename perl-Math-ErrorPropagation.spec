@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	ErrorPropagation
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::ErrorPropagation - computes the error of a function of statistical data
 Summary(pl.UTF-8):	Math::ErrorPropagation - obliczanie błędu funkcji danych statystycznych
 Name:		perl-Math-ErrorPropagation
@@ -15,12 +15,13 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	089bc0978360afc1e9ba94767975cb8f
+URL:		http://search.cpan.org/dist/Math-ErrorPropagation/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Test-Harness
 BuildRequires:	perl-Test-Simple
 %endif
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
